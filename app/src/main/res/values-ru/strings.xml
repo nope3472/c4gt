@@ -1,0 +1,500 @@
+<resources>
+    <string name="app_name" translatable="false">Телемед KG</string>
+
+    //Generic
+    <string name="tag_optional" translatable="false">необязательно</string>
+    <string name="generic_ok">OK</string>
+    <string name="generic_cancel">Отменить</string>
+    <string name="generic_yes">Да</string>
+    <string name="generic_no">Нет</string>
+    <string name="generic_back" translatable="false">Назад</string>
+    <string name="generic_coming_soon" translatable="false">Скоро будет.....</string>
+    <string name="action_print" translatable="false">Печать</string>
+    <string name="action_home" translatable="false">Главная</string>
+
+
+    //Database Schema Names
+
+    //Login Screen
+    <!--    <string name="title_activity_login" translatable="false">Intelehealth</string>-->
+    <string name="title_activity_login" translatable="false">Телемед КГ - ПРИЛОЖЕНИЕ</string>
+    <string name="prompt_admin_password" translatable="false">Пароль администратора</string>
+    <string name="action_sign_in_short" translatable="false">Войти</string>
+    <string name="url_invalid" translatable="false">Проверьте свою URL-ссылку.</string>
+    <string name="error_invalid_email">Этот адрес электронной почты недействителен</string>
+    <string name="error_invalid_password" translatable="false">Пароль слишком короткий</string>
+    <string name="error_incorrect_password" translatable="false">пожалуйста, проверьте имя пользователя и введенный пароль</string>
+    <string name="error_field_required" translatable="false">Это поле обязательно для заполнения</string>
+    <string name="error_network" translatable="false">Ошибка сети</string>
+    <string name="error_location_not_selected" translatable="false">Пожалуйста, выберите значение в раскрывающемся списке</string>
+    <string name="error_location_not_fetched" translatable="false">Невозможно получить местоположение</string>
+
+
+    //Home Screen (after login)
+    <string name="title_home_screen" translatable="false">Главная</string>
+    <string name="menu_option_logout" translatable="false">Выход из системы</string>
+
+
+    //Identification Screen
+    <string name="title_activity_identification" translatable="false">Добавить нового пациента</string>
+    <string name="identification_screen_checkbox_male">Мужской</string>
+    <string name="identification_screen_checkbox_female">Женский</string>
+    <string name="identification_screen_checkbox_other">других</string>
+    <string name="identification_screen_prompt_age">Возраст:</string>
+    <string name="identification_screen_prompt_city">Село/Город</string>
+    <string name="identification_screen_prompt_state">Область</string>
+    <string name="identification_screen_prompt_country" translatable="false">Страна *</string>
+    <string name="identification_screen_prompt_postal_code" translatable="false">Почтовый индекс</string>
+    <string name="identification_screen_text_years" translatable="false"> лет/годы(-а) </string>
+    <string name="identification_screen_text_months" translatable="false"> месяцы(-а)</string>
+    <string name="identification_screen_picker_years" translatable="false">лет</string>
+    <string name="identification_screen_picker_months" translatable="false">месяцы(-а)</string>
+
+    //Active Patients Screen
+
+    //Patient History Screen
+    <string name="title_activity_get_patient_history" translatable="false">История пациента</string>
+
+    //Complaint Node Screen
+    <string name="title_activity_complaint_node">Выбрать жалобы</string>
+    <string name="complaint_dialog_title">Причина визита</string>
+    <string name="complaint_required" translatable="false">Жалоба должна быть выбрана!</string>
+
+    //Question Node Screen
+    <string name="title_activity_question_node" translatable="false">Активная вопросная нода</string>
+    <string name="complaint_change_selected" translatable="false">Изменить</string>
+    <string name="question_answer_all_phy_exam" translatable="false">Пожалуйста, ответьте на все вопросы общего экзамена.</string>
+    <string name="question_duration_picker" translatable="false">Пожалуйста, введите продолжительность</string>
+    <string name="question_text_input" translatable="false">Пожалуйста, введите текст</string>
+    <string name="question_date_picker" translatable="false">Пожалуйста, выберите дату</string>
+    <string name="question_location_picker" translatable="false">Пожалуйста, выберите место проведения</string>
+    <string name="question_number_picker" translatable="false">Пожалуйста, введите количество</string>
+    <string name="question_area_picker" translatable="false">Пожалуйста, введите площадь (ширина X длина)</string>
+    <string name="question_range_picker" translatable="false">Пожалуйста, введите диапазон</string>
+    <string name="question_frequency_picker" translatable="false">Пожалуйста, введите количество раз</string>
+
+
+    //Table Exam Screen
+    <string name="title_activity_vitals" translatable="false">Показатели</string>
+    <string name="table_hw" translatable="false">Параметры тела</string>
+    <string name="table_height" translatable="false">Рост (см)</string>
+    <string name="table_weight" translatable="false">Вес (кг)</string>
+    <string name="table_bmi" translatable="false">ИМТ </string>
+    <string name="table_pulse" translatable="false">Пульс (уд/мин)</string>
+    <string name="table_bp" translatable="false">Жизненные показатели</string>
+    <string name="table_bpsys" translatable="false">Cистолическое АД</string>
+    <string name="table_bpdia" translatable="false">Диастолическое АД</string>
+    <string name="table_temp" translatable="false">Температура (C)</string>
+    <string name="table_spo2" translatable="false">Сатурация SpO2 (%)</string>
+
+    //Patient Search Screen
+    <string name="search_hint" translatable="false">Введите для поиска пациента по имени...</string>
+    <string name="action_search" translatable="false">Поиск</string>
+
+    //Past Medical History Screen
+    <string name="title_activity_patient_history" translatable="false">История болезни</string>
+
+    //Visit Summary Screen
+    <string name="title_activity_family_history" translatable="false">Семейная история</string>
+    <string name="title_activity_physical_exam" translatable="false">Физический осмотр</string>
+    <string name="visit_summary_temperature" translatable="false">Температура(C)</string>
+    <string name="visit_summary_bmi" translatable="false">ИМТ</string>
+    <string name="visit_summary_bp" translatable="false">АД</string>
+    <string name="visit_summary_pulse" translatable="false">Пульс</string>
+    <string name="visit_summary_medical_history">История болезни</string>
+    <string name="visit_summary_family_history" translatable="false">Семейный анамнез</string>
+    <string name="visit_summary_on_examination" translatable="false">При осмотре</string>
+    <string name="visit_summary_complaint" translatable="false">Причина визита</string>
+    <string name="visit_summary_vitals" translatable="false">Жизненные показатели</string>
+    <string name="visit_summary_rx" translatable="false">Выписанные лекарства</string>
+    <string name="visit_summary_button_upload" translatable="false">Загрузить</string>
+    <string name="visit_summary_follow_up_reminder" translatable="false">Напомните пациенту дату последующего наблюдения: </string>
+    <string name="visit_summary_upload_reminder" translatable="false">Пожалуйста, сначала загрузите информацию, прежде чем пытаться завершить визит.</string>
+
+    //Diagnostic Tests Screen
+
+    //Physical Exam Dialog
+    <string name="wash_hands">Не забудьте вымыть руки</string>
+
+
+    //Patient Detail Screen
+    <string name="button_history" translatable="false">История пациента</string>
+    <string name="title_activity_patient_detail" translatable="false">Подробная информация о пациенте</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+
+    <!-- Example settings for Data & syncBackground -->
+
+    <!-- Example settings for Notifications -->
+
+
+    <string name="title_activity_additional_documents">Дополнительные документы</string>
+    <string name="title_activity_video_library" translatable="false">Библиотека видео</string>
+    <string name="visit_summary_patient_details" translatable="false">Детали посещения</string>
+
+    <!--Setup Activity-->
+
+    //Camera Permissions
+    <string name="permission_camera_rationale" translatable="false">Для отображения предварительного просмотра камеры необходимо разрешение доступа к камере.</string>
+    <string name="permission_camera_denied" translatable="false">Доступ к камере был отклонен. Пожалуйста, рассмотрите возможность предоставления доступа к камере!</string>
+    <string name="permission_camera_never_askagain" translatable="false">Разрешение доступа к камере было отклонено и больше не будет запрашиваться.</string>
+    <string name="button_allow" translatable="false">Разрешить</string>
+    <string name="button_deny" translatable="false">Запретить</string>
+    <string name="button_ok" translatable="false">OK</string>
+    <string name="button_cancel" translatable="false">Отменить</string>
+    <string name="picture_taken" translatable="false">Снимок сделан</string>
+    <string name="switch_flash" translatable="false">Переключить вспышку</string>
+    <string name="switch_camera" translatable="false">Переключить камеру</string>
+    <string name="flash_auto" translatable="false">Вспышка авто</string>
+    <string name="flash_off" translatable="false">Вспышка выключена</string>
+    <string name="flash_on" translatable="false">Вспышка включена</string>
+
+    //SEND SMS Permissions
+    <string name="permission_sms_rationale" translatable="false">Для отправки SMS необходимо разрешение на SMS.</string>
+    <string name="permission_sms_denied" translatable="false">В разрешении SMS было отказано. Пожалуйста, рассмотрите возможность его предоставления для отправки смс из приложения!</string>
+    <string name="permission_sms_never_askagain" translatable="false">В разрешении на SMS было отказано, никогда больше не спрашивать.</string>
+
+    <string name="button_save" translatable="false">Сохранить</string>
+    <string name="button_delete" translatable="false">Удалить</string>
+
+    //Camera Dialog
+    <string name="camera_dialog_default" translatable="false">Пожалуйста, нажмите на фотографию документа только при хорошем освещении. Если фотография документа нечеткая, сделайте снимок еще раз.</string>
+
+    <!--Offline Login Errors-->
+    <string name="admin_authentication_not_possible" translatable="false">Невозможно пройти аутентификацию.</string>
+
+    <string name="prompt_licensekey" translatable="false">Лицензионный ключ</string>
+    <string name="setup_use_demo_mindmap" translatable="false">Использовать демонстрационные протоколы</string>
+    <string name="setup_download_mindmap" translatable="false">Скачать протоколы</string>
+
+    <string name="please_wait_progress" translatable="false">Пожалуйста, подождите</string>
+    <string name="logging_in" translatable="false">Вход в систему</string>
+    <string name="error_downloading_protocols" translatable="false">Ошибка при загрузке протоколов</string>
+
+    //Sync strings
+
+    <string name="downloading" translatable="false">Скачивается...</string>
+
+    <string name="visit" translatable="false">Посетите</string>
+    <string name="patient">Пациент</string>
+    <string name="prescription" translatable="false">Рецепт</string>
+
+    <string name="action_end_visit" translatable="false">Завершить визит</string>
+
+    <string name="question_update_details" translatable="false">Вы хотите обновить информацию?</string>
+
+    <string name="find_patient">Найти пациентов</string>
+
+    <string name="error_no_sd" translatable="false">Эта функция доступна только для устройств с SD-картами.</string>
+    <string name="error_admin_password" translatable="false">Неправильный пароль администратора</string>
+    <string name="error_no_file" translatable="false">В этом каталоге нет файлов</string>
+    <string name="success_offline_login" translatable="false">Автономный вход Успешный</string>
+    <string name="invalidate_offline_login" translatable="false">Автономный вход недействителен</string>
+
+    <string name="patient_not_registered" translatable="false">Пациент не зарегистрирован</string>
+
+    <!-- Vitals Screen Error-->
+
+    <string name="weight_error" translatable="false">Вес не должен превышать %1$s кг.</string>
+    <string name="height_error" translatable="false">Высота должна быть от 0 до %1$s см.</string>
+    <string name="spo2_error" translatable="false">SpO2 должно находиться в диапазоне от %1$s до %2$s.</string>
+    <string name="pulse_error" translatable="false">Пульс должен находиться в диапазоне от %1$s до %2$s.</string>
+    <string name="bpsys_error" translatable="false">Систолическое давление должно находиться в диапазоне от %1$s до %2$s.</string>
+    <string name="bpdia_error" translatable="false">Диастолическое давление должно находиться в диапазоне от %1$s до %2$s.</string>
+    <string name="resp_error" translatable="false">Частота дыхания должна находиться в диапазоне от %1$s до %2$s.</string>
+    <string name="temp_error" translatable="false">Температура должна быть в пределах от %1$s до %2$s.</string>
+
+    <string name="not_provided">Не предоставлено</string>
+
+    <!-- Patient Exit Survey -->
+    <string name="exit_survey_toast">Пожалуйста, выберите смайлик перед отправкой</string>
+
+
+    <!--DB Backup-->
+
+    <!--Cloud Backup-->
+
+    <string name="no_network" translatable="false">Интернет-соединение недоступно</string>
+
+
+    <!--Image Download Service-->
+
+    <!--Parse Validation User login-->
+
+    <!--Privacy Notice Activity-->
+    <string name="temperature_f">Температура (F)</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="enter_username">Введите ваше имя пользователя</string>
+    <string name="patient_denies">Пациент отрицает</string>
+    <string name="patient_reports">Пациент сообщает</string>
+
+    <string name="associated_symptoms">Сопутствующие симптомы</string>
+    <string name="enter_server_url">Введите URL-адрес сервера</string>
+    <string name="enter_license_key"><b>Введите лицензионный ключ</b></string>
+    <string name="invalid_url">Неверный URL</string>
+    <string name="years">лет/годы(-а)</string>
+    <string name="months">месяцы(-а)</string>
+    <string name="son_daughter_wife_of">Сын/дочь/жена</string>
+    <string name="occupation">Профессия</string>
+    <string name="accept">Принять</string>
+    <string name="next">Следующий</string>
+    <string name="choose_an_option_for_protocols">Выберите вариант протоколов</string>
+    <string name="respiratory_rate">Частота Дыхания</string>
+    <string name="click_to_download_the_images">Нажмите, чтобы загрузить изображения</string>
+    <string name="doctor">Подробная информация о враче</string>
+    <string name="priority">Приоритет</string>
+    <string name="server_url">URL-ссылка сервера</string>
+    <string name="planet_name">Название планеты</string>
+    <string name="ok">В ПОРЯДКЕ</string>
+    <string name="cancel">Отменить</string>
+
+    <string name="syncInProgress">Идет обновление</string>
+    <string name="please_wait">Пожалуйста, подождите...</string>
+    <string name="sure_to_exit">Вы уверены, что хотите ВЫЙТИ?</string>
+    <string name="sure_to_logout">Вы уверены, что хотите выйти из системы?</string>
+    <string name="update_patient_identification">Обновить пациента</string>
+    <string name="error">Ошибка</string>
+    <string name="this_question_only_one_answer">Этот вопрос может иметь только один ответ.</string>
+    <string name="visit_data_failed">Не удалось получить данные о визите</string>
+
+    <string name="protocols_downloaded_successfully">Протоколы загружены успешно!</string>
+    <string name="no_protocols_found">Протоколы не найдены</string>
+    <string name="unable_to_get_proper_response">Возникла проблема с загрузкой протоколов, пожалуйста, свяжитесь с системным администратором</string>
+    <string name="last_synced">Последнее обновление - </string>
+    <string name="day">день</string>
+    <string name="hour">час</string>
+    <string name="minute">минута</string>
+    <string name="s">сек</string>
+    <string name="ago">назад</string>
+    <string name="failed_synced"><![CDATA[Не удалось обновить, проверьте подключение к Интернету]]></string>
+    <string name="visit_not_uploaded">Визит не загружен</string>
+    <string name="upload_started">Загрузка...</string>
+    <string name="visit_uploaded_failed">Будет загружен, когда будет доступен интернет</string>
+    <string name="visitID">Идентификатор визита</string>
+
+    <string name="prescription_not_downloaded_check_internet">Рецепт не загружен, проверьте подключение к интернету</string>
+    <string name="new_update_available">Доступно новое обновление</string>
+    <string name="update_app_note">Доступна новая версия с новыми функциями, пожалуйста, обновите приложение.</string>
+    <string name="update">Обновить</string>
+    <string name="hello_thankyou_for_using_intelehealth_app_to_download_click_here">"Здравствуйте! Спасибо за использование Телемед KG. Чтобы загрузить рецепт, нажмите здесь "</string>
+    <string name="and_enter_your_patient_id">" и введите свой идентификатор(ID) пациента - "</string>
+
+
+    <!--New Ayu Related Changes-->
+    <string name="what_is_the_reason_for_your_visit">Какова причина вашего визита?</string>
+    <string name="have_symptom">Есть ли у вас этот симптом?</string>
+
+
+    <!--New UI changes 2.1-->
+    <string name="since_when_have_you_had_this_symptom">С какого времени у вас появился этот симптом?</string>
+    <!--    <string name="intelehealth_name">Intelehealth</string>-->
+    <string name="please_enter_url_and_key">Пожалуйста, введите URL и ключ</string>
+    <string name="permission_denied">В доступе отказано</string>
+    <string name="reject_permission_results"><![CDATA[Если вы отклоняете разрешение, вы не можете использовать эту службу \ n \ nВключите разрешения в [Настройка]> [Разрешение]]]></string>
+    <string name="current_time"><![CDATA[\ "Текущее время => \"]]></string>
+    <string name="no_history_family_found">История болезни в семье не предоставлена.</string>
+    <string name="no_history_patient_illness_found">История болезни пациента не предоставлена.</string>
+    <string name="dr_registration_no">Номер регистрации: </string>
+    <string name="dr_email">Электронное письмо: </string>
+    <string name="_visit_summary"> Итоги посещения</string>
+    <string name="error_non_decimal_no_added">Ошибка: введено недесятичное число.</string>
+    <string name="mindmap_internect_connection">Для загрузки протоколов вам необходимо подключение к Интернету, пожалуйста, включите ваш Интернет</string>
+    <string name="days">дни</string>
+    <string name="has_a_new_prescription">выписан новый рецепт</string>
+    <string name="enter_mobile_number_to_share_prescription">Введите номер мобильного телефона, на который вы хотите поделиться рецептом.</string>
+    <string name="share">Поделиться</string>
+    <string name="please_enter_mobile_number">Пожалуйста, введите номер мобильного телефона</string>
+    <string name="download_prescription_first_before_sharing">Сначала скачайте рецепт, прежде чем поделиться им</string>
+    <string name="enter_10_digits">Введите 10 цифр</string>
+    <string name="gender_male">Мужчина</string>
+    <string name="gender_female">женский</string>
+    <string name="document_">"Документ -"</string>
+    <string name="Hours">Часы</string>
+    <string name="Days">Дни</string>
+    <string name="Weeks">Недели</string>
+    <string name="Months">месяцы(-а)</string>
+    <string name="Years">лет/годы(-а)</string>
+    <string name="per_Hour">в час</string>
+    <string name="per_Day">в день</string>
+    <string name="per_Week">В неделю</string>
+    <string name="per_Month">в месяц</string>
+    <string name="per_Year">в год</string>
+    <!--@lincon-->
+    //setup activity
+    <string name="setup_internet_not_available">Вы не подключены к Интернету.</string>
+    <string name="select_specialization_text">Выберите специализацию</string>
+    <string name="please_select_specialization_msg">Пожалуйста, выберите специализацию</string>
+
+    <string name="visit_closed">Посещение закрыто</string>
+
+    <string name="take_photo">Сфотографировать</string>
+    <string name="choose_from_gallery">Выбрать из галереи</string>
+    <string name="additional_doc_image_picker_title">Добавить дополнительный документ!</string>
+    <string name="something_went_wrong">Что-то пошло не так. Обратитесь в службу поддержки</string>
+
+    //Language Screen
+    <string name="error_login_title">Ошибка входа</string>
+    <string name="config_file_error">ошибка файла конфигурации</string>
+
+    <string name="not_connected_txt">Нет подключения к Интернету!</string>
+
+    <!--Prescription-->
+    <string name="prescription_pulse">Пульс (уд / мин)</string>
+    <string name="prescription_wt">Вес (кг)</string>
+    <string name="prescription_ht">Высота (см)</string>
+    <string name="prescription_temp_c">Температура (C) : </string>
+    <string name="prescription_temp_f">Температура (F) : </string>
+    <string name="warning_app_update">Пожалуйста, обновите приложение до последней версии.</string>
+
+    <string name="diagnosis">Диагностика</string>
+    <string name="strength">Сила</string>
+    <string name="additional_instruction">Дополнительная инструкция</string>
+    <string name="follow_up">Следовать за</string>
+    <string name="submit">Представлять на рассмотрение</string>
+
+    <string name="book_appointment">Записаться на прием</string>
+    <string name="appointment_booking_confirmation_txt">Вы уверены, что хотите забронировать этот слот?</string>
+    <string name="slot_empty_message">Время встречи недоступно для выбранной даты и специальности!</string>
+
+    <string name="slot_info">Информация о слоте</string>
+    <string name="minutes_txt">минуты</string>
+    <string name="please_upload_visit">Пожалуйста, сначала загрузите информацию о посещении, прежде чем записываться на прием.</string>
+    <string name="appointment_booked_successfully">Встреча успешно забронирована!</string>
+    <string name="failed_to_cancel_appointment">Не удалось отменить встречу!</string>
+    <string name="appointment_cancelled_success_txt">Встреча успешно отменена!</string>
+    <string name="title_follow_up">Последующие визиты</string>
+
+    <string name="please_select_your_reschedule_reason">Please select your reschedule reason</string>
+    <string name="please_select_your_cancel_reason">Please select your cancel reason</string>
+    <string name="doctor_is_not_available">Doctor is not available</string>
+    <string name="patient_is_not_available">Patient is not available</string>
+    <string name="others">Others</string>
+    <string name="please_enter_the_reason_details">Please enter the reason details</string>
+    <string name="please_enter_reason_txt">Please enter the reason!</string>
+
+    <string name="resetting_app_dialog">Сброс приложения</string>
+    <string name="sure_to_reset_app">Вы уверены, что хотите сбросить настройки приложения?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="sync_failed">Ошибка синхронизации! Повторите попытку позже.</string>
+    <string name="app_sync">Синхронизация приложения..</string>
+
+    //----download protocol failed alert dialog-----------
+    <string name="app_version_string">App Version - %1$s</string>
+    <string name="enter_patient_s_body_measurement_details">Enter patient’s body measurement details</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="bmi_index_auto_calculated">BMI index(auto-calculated)</string>
+    <string name="enter_the_patient_s_vitals">Enter the patient’s vitals</string>
+    <string name="bp_sys">BP Systolic</string>
+    <string name="bp_dia">BP Diastolic</string>
+    <string name="pulse_bpm">Pulse (bpm)</string>
+    <string name="spo2">SpO2 (%)</string>
+    <string name="respiratory_rate_breaths_min">Respiratory Rate (breaths/min)</string>
+    <string name="temperature_f_new">Temperature (F)</string>
+    <string name="confirm">Confirm</string>
+    <string name="ui2_physical_exam_summay_title">%1$d/%2$d Physical examination summary</string>
+    <string name="ui2_medical_hist_title_text">%1$d/%2$d Medical history summary</string>
+    <string name="select_any_one">Select any one</string>
+    <string name="select_one_or_more">Select one or more</string>
+    <string name="unablet_get_the_doct_info_alert">Unable to get the doctor details!</string>
+    <string name="video_call_req_sent">Request is sent to doctor for a video call</string>
+    <string name="postal_code_6_dig_invalid_txt">Please enter 6 digit valid postal code</string>
+    <string name="sanity_alert_title">Please wash/sanitize your hands</string>
+    <string name="slider_desc">range slider</string>
+    <string name="drag_tow_capture_range_from_0_to_100">Drag tow capture range from 0 to 100</string>
+    <string name="ui2_no_information">No information</string>
+    <string name="confirm_visit_reason">Confirm visit reason?</string>
+    <string name="are_you_sure_the_patient_has_the_following_reasons_for_a_visit">Are you sure the patient has the following reasons for a visit?</string>
+    <string name="know_more_txt">Know more</string>
+    <string name="drag_anywhere_from_0_to_10">Drag anywhere from 0 to 10</string>
+    <string name="follow_up_visits_not_found">Follow up visits not found!</string>
+    <string name="enter_occupation_txt">Enter Occupation</string>
+    <string name="education">Education</string>
+    <string name="enter_your_relation_with_patient">Enter your relation with patient</string>
+    <string name="empty_message_for_patinet_search_visit_screen">Use correct name or ID to search or add a new patient.</string>
+    <string name="confirm_end_visit_reason">End this visit?</string>
+    <string name="confirm_end_visit_reason_message">"Are you sure you want to end this visit for "</string>
+    <string name="support_mobile_no_1">919503692181</string>
+    <string name="help_whatsapp_string">Hello I’m  %1$s I need some assistance</string>
+    <string name="update_app_protocol">Update app protocol!</string>
+    <string name="please_enter_the_server_url_with_license_key_to_download_the_protocols">Please enter the server url with license key to download the protocols?</string>
+    <string name="previously_scheduled_appointment_details">Previously scheduled appointment details</string>
+    <string name="loading_slots">Loading slots...</string>
+    <string name="alert_txt">Alert!</string>
+    <string name="valid_dob_msg">Please select valid DOB!</string>
+    <string name="all_patients_txt">All Patients</string>
+    <string name="alert_label_txt">Alert!</string>
+    <string name="describe_hint_txt">Describe...</string>
+    <string name="duration_validation_txt">Please select the duration number</string>
+    <string name="duration_type_validation_txt">Please select the duration type</string>
+    <string name="select_date_hint">Select date</string>
+    <string name="error_field_valid_village_required">Please enter the valid village name (Min 3 char)</string>
+    <string name="patinet_history">%1$d/%2$d Medical history: Patient history</string>
+    <string name="_1_4_vitals">%1$d/%2$d Vitals</string>
+    <string name="bp_validation_sys"><![CDATA[BP Sys always should be > BP Dia]]></string>
+    <string name="bp_validation_dia"><![CDATA[BP Dia always should be < BP Sys]]></string>
+    <string name="duration_type">Duration Type</string>
+    <string name="number_label">Number</string>
+    <string name="associated_symptoms_header_visit_creation">Associated symptoms</string>
+    <string name="edit">Edit</string>
+    <string name="references">References:</string>
+    <string name="already_selected_lbl">Already selected!</string>
+    <string name="please_submit_to_proceed_next_step">Please submit to proceed next step</string>
+    <string name="to_date_validation">To date should be greater than from date</string>
+    <string name="select_image_hdr">Select Image</string>
+    <string name="no_notes_added_for_doctor">No notes added for Doctor.</string>
+    <string name="please_contact_your_system_administrator_to_change_these_profile_details">Please contact your system administrator to change these profile details</string>
+    <string name="old_password_and_new_password_cannot_be_same">Old password and new password cannot be same.</string>
+    <string name="this_feature_is_not_available_in_offline_mode">This feature is not available in offline mode.</string>
+    <string name="hours">hours</string>
+    <string name="you_are_offline_please_connect_to_the_internet_for_videos">You are offline! Please connect to the internet for videos.</string>
+    <string name="you_missed_the_compulsory_questions_please_answer_them">You missed the compulsory questions, Please answer them.</string>
+    <string name="image_upload_pending_alert">Please upload the captured image before submit!</string>
+    <string name="otp_sending">OTP Sending...</string>
+    <string name="token_expired">Token Expired</string>
+    <string name="your_session_has_expired_please_log_in_again">Срок действия вашего сеанса истек. Пожалуйста, войдите снова.</string>
+    <string name="forgot_username_link"><u>Forgot username?</u></string>
+    <string name="forgot_username_txt">Forgot username?</string>
+    <string name="enter_mobile_no_given_text">Please make sure your mobile number is updated in the profile section before proceeding</string>
+    <string name="username_sent_title">Username Sent</string>
+    <string name="username_sent_desc">Your username has been sent via SMS to your registered mobile number.</string>
+    <string name="teleconsultation_consent_title">Teleconsultation Consent</string>
+    <string name="u2022_strength">• Strength</string>
+    <string name="u2022_no_of_days">• No. of days</string>
+    <string name="u2022_timings">• Timings</string>
+    <string name="u2022_remarks">• Remarks</string>
+    <string name="the_from_date_cannot_be_greater_than_the_to_date">The \'from\' date cannot be greater than the \'to\' date</string>
+    <string name="no_notifications_yet">No Notifications Yet</string>
+    <string name="this_visit_is_completed">This visit is completed.</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="delete">Delete</string>
+    <string name="are_you_sure_you_want_to_delete_all_notifications">Are you sure you want to delete all notifications?</string>
+    <string name="enter_other_information_txt">Enter other information</string>
+    <string name="blood_group_txt">Blood Group</string>
+    <string name="eg_a_ve">Eg. A +ve</string>
+    <string name="dont_know">Don\'t know</string>
+    <string name="universal_donor">( Universal Donor)</string>
+    <string name="universal_recipient">( Universal Recipient )</string>
+    <string name="view_prescription_lbl">View Prescription</string>
+    <string name="past">Прошлое</string>
+    <string name="facility_to_visit">Facility to visit</string>
+    <string name="follow_up_date">Follow up date</string>
+    <string name="please_select_valid_followup_date">Please select valid followup date</string>
+    <string name="reminder">Reminder</string>
+    <string name="patient_follow_up_appointment_on">Patient %1$s (%2$s): Follow-up appointment on %3$s</string>
+    <string name="open_followup">Open Followup</string>
+    <string name="find_patients_hint">Find patients</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="range">Range</string>
+    <string name="apply">Apply</string>
+    <string name="select_date_to_apply_filter">Select date to apply filter.</string>
+    <string name="required_alarm_and_reminder_permission">Required alarm and reminder permission.</string>
+    <string name="forgot_your_username">Forgot your username?</string>
+    <string name="contact_your_admin">Contact your admin</string>
+    <string name="sync">Refresh</string>
+    <string name="sending_otp">Sending OTP...</string>
+</resources>

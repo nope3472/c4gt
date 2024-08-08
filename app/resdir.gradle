@@ -1,0 +1,22 @@
+android{
+    sourceSets {
+        main {
+            res {
+                srcDirs 'src\\main\\res',
+                        'src\\main\\res\\webrtc'
+            }
+        }
+
+        biocon {
+            res {
+                srcDirs 'src\\biocon\\res'
+            }
+        }
+
+        namma {
+            res {
+                srcDirs 'src\\namma\\res'
+            }
+        }
+    }
+}
